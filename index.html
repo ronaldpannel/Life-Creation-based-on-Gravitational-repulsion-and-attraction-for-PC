@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creation of Life Simulation based on repulsion and attraction</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="controls">
+      <label id="yellowYellowLabel" for="yelloweYellow">Yellow to Yellow G</label>
+      <input id="yellowYellow" type="range" min="-1" max="1" value="0.15" step="0.01">
+
+      <label id="redRedLabel" for="redRed">Red to Red G</label>
+      <input  id="redRed" type="range" min="-1" max="1" value="-0.10" step="0.01">
+      
+      <label id="greenGreenLabel" for="greenGreen">Green to Green G</label>
+      <input id="greenGreen" type="range" min="-1" max="1" value="-0.32" step="0.01">
+     
+      <label id="greenRedLabel" for="greenRed">Green to Red G</label>
+      <input id="greenRed" type="range" min="-1" max="1" value="-0.17" step="0.01">
+      
+      <label id="redGreenLabel" for="redGreen">Red to Green G</label>
+      <input id="redGreen" type="range" min="-1" max="1" value="-0.34" step="0.01">
+      
+      <label id="greenYellowLabel" for="greenYellow">Green to Yellow G</label>
+      <input id="greenYellow" type="range" min="-1" max="1" value="0.34" step="0.01">
+     
+      <label id="yellowGreenLabel" for="yellowGreen">Yellow to Green G</label>
+      <input id="yellowGreen" type="range" min="-1" max="1" value="-0.20" step="0.01">
+      
+      <label id="yellowRedLabel" for="yellowRed">Yellow to Red G</label>
+      <input id="yellowRed" type="range" min="-1" max="1" value="0" step="0.01">
+      
+      <label id="redYellowLabel" for="redYellow">Red to Yellow G</label>
+      <input id="redYellow" type="range" min="-1" max="1" value="0" step="0.01">
+
+      <div class="but">
+        <button id="zeroBtn">Zero Sliders</button>
+        <button id="resetBtn">reset</button>
+        <button id="randomBtn">Randomize  </button>
+
+      </div>
+    </div>
+    <canvas class="canvas1" id="canvas1"> </canvas>
+      
+    </div>
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>
